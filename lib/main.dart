@@ -60,19 +60,6 @@ class _PerguntaAppState extends State<PerguntaApp> {
 
   @override
   Widget build(BuildContext context) {
-    /*List<Widget> respostas = [];
-    for (String textoResp in perguntas[_perguntaSelecionada]['respostas']) {
-      respostas.add(Resposta(textoResp, _responder));
-    }*/
-
-    //fazendo a transformação de uma lista de string para uma lista de widgets com o map
-    /*List<Widget> widgets = respostas //declarativa
-    .map((t) => Resposta(t, _responder))
-    .toList();*/
-
-    /*for (String textoResp in respostas) { //imperativa
-      widgets.add(Resposta(textoResp, _responder));
-    }*/
 
     return MaterialApp(
       theme: ThemeData(
